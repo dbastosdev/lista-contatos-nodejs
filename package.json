@@ -1,0 +1,32 @@
+{
+  "name": "lista-contatos-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto CRUD de lista de contatos MVC",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbastosdev/lista-contatos-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "crud"
+  ],
+  "author": "Douglas Bastos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbastosdev/lista-contatos-nodejs/issues"
+  },
+  "homepage": "https://github.com/dbastosdev/lista-contatos-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

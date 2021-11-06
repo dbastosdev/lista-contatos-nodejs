@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <%- include('partials/head.ejs') %>
+<body>
+    <div class="container">
+
+        <div class="title-box">
+          <h1>Projeto: Lista de contatos</h1>
+          <p class="lead">Projeto de uma lista de contatos implementado com Node.js<br> 
+            O objetivo é estruturar uma aplicação minimalista de lista de contatos no padrão MVC.</p>
+            <h2>Página inicial</h2>
+        </div>
+        <a type="button" class="btn btn-primary" href="/form">Adicionar novo contato</a>
+        <br>
+        <br>
+        <table class="table table-bordered grocery-crud-table table-hover alinhamento">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Empresa</th>
+              <th>Telefone</th>
+              <th>Email</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% read.forEach((contact) => { %>
+              <tr>
+                <td>
+                  <%= contact.name %>
+                </td>
+                <td>
+                  <%= contact.company %> 
+                </td>
+                <td>
+                  <%= contact.phone %> 
+                </td>
+                <td>
+                  <%= contact.email %>  
+                </td>
+                <td>
+                  <a class="btn btn-default btn-warning" href="/edit-form/<%=contact.id%>"> Editar </a>
+                  <a class="btn btn-default btn-danger" href="/remove/<%=contact.id%>">Deletar</a> 
+                </td>
+              </tr>
+            <% })%>  
+          </tbody>
+        </table>
+       
+      
+      </div>
+</body>
+</html>
