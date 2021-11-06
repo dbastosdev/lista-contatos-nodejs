@@ -12,4 +12,6 @@ Se você é iniciante assim como eu, seguem algumas dicas de como explorar o fun
 
 Ficaram pendentes algumas melhorias, como validação de formulário e exibição de outras mensagens de sucesso ou erro. Mas deixarei esse tipo de trabalho para os próximos projetos. 
 
+dependências do projeto: ejs, express e nodemon (dev)
+
 Dúvidas e sugestões, envie para dbastos.dev@gmail.com 
