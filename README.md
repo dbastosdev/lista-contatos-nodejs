@@ -1,5 +1,8 @@
 # Projeto Lista de contatos - Node.js
 
+<img src="./home.jpeg" alt="Capa"/>
+<img src="./register.png" alt="Capa"/>
+
 Estudo de Node.js - projeto CRUD de uma lista de contatos
 
 Para reforçar o estudo e desenvolvimento de lógica de programação, construí o sistema com base em arquivos json para gerenciar e persistir a base de dados. São dois arquivos separados que se complementam: um JSON para armazenar os ids sequênciais e outro para armazenar os dados cadastrados e operações CRUD. Utilizei a lib do fs, nativa do Node.js para criar os gerenciadores do 'banco de dados'.
